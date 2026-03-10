@@ -19,7 +19,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   May you come up with an interesting description
 baseurl: "/the-interesting-times" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: 'UA-131540516-1' # Substitute this with your own GA key
+# Privacy-focused, cookieless analytics alternatives (GDPR/CCPA compliant)
+goatcounter: '' # e.g., 'your-username' (for your-username.goatcounter.com)
+plausible: ''   # e.g., 'yourdomain.com'
+# google_analytics: 'UA-131540516-1' # Note: GA usually requires cookie consent banners
 twitter_username: jekyllrb
 github_username:  jekyll
 excerpt_separator: <!--more-->
